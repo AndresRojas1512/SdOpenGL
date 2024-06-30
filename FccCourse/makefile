@@ -1,9 +1,7 @@
-# Define compiler and flags
 CXX = g++
 CXXFLAGS = -g -fdiagnostics-color=always
 LDFLAGS = -lglfw -ldl -lGL
 
-# Define paths
 GLAD_DIR = glad
 OBJ_DIR = obj
 
